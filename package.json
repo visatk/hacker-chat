@@ -1,0 +1,31 @@
+{
+  "name": "hacker",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "npm run build && vite preview",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "@cloudflare/realtimekit": "^1.2.0",
+    "@cloudflare/realtimekit-react": "^1.2.0",
+    "@cloudflare/realtimekit-ui": "^1.0.6",
+    "@cloudflare/realtimekit-react-ui": "^1.0.6",
+    "@cloudflare/realtimekit-ui-addons": "^0.0.4",
+    "react": "^18.3.1",
+    "react-feather": "^2.0.10",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.21.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.4",
+    "vite": "^6.1.0",
+    "wrangler": "^3.109.0"
+  }
+}
